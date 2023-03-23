@@ -4,115 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3a01f95-7fb2-4dbe-a4c1-1c33ecdaa276" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/shupeyko/api/AppError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/shupeyko/api/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/shupeyko/api/dto/CartDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/shupeyko/api/dto/CartItemDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/shupeyko/api/dto/JwtRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/shupeyko/api/dto/JwtResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/shupeyko/api/dto/OrderDetailsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/shupeyko/api/dto/OrderDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/shupeyko/api/dto/ProductDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/shupeyko/api/dto/RegistrationUserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/shupeyko/api/dto/StringResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/shupeyko/auth/WinterMarketAuthApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/shupeyko/auth/configs/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/shupeyko/auth/controllers/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/shupeyko/auth/entities/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/shupeyko/auth/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/shupeyko/auth/repositories/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/shupeyko/auth/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/shupeyko/auth/services/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/shupeyko/auth/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/shupeyko/auth/utils/JwtTokenUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/resources/db/migration/V1__init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/shupeyko/cart/WinterMarketCartsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/shupeyko/cart/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/shupeyko/cart/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/shupeyko/cart/controllers/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/shupeyko/cart/converters/CartConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/shupeyko/cart/converters/CartItemConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/shupeyko/cart/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/shupeyko/cart/integrations/ProductServiceIntegration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/shupeyko/cart/model/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/shupeyko/cart/model/CartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/shupeyko/cart/properties/ProductServiceIntegrationProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/shupeyko/cart/services/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/test/java/shupeyko/cart/CartServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/WinterMarketCoreApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/aspect/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/aspect/LogTimeAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/aspect/Timer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/configs/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/configs/WebServiceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/controllers/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/controllers/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/converters/OrderConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/converters/OrderItemConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/converters/ProductConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/data/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/data/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/data/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/endpoints/ProductEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/exception/FieldsValidationError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/exception/ValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/integrations/CartServiceIntegration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/properties/CartServiceIntegrationProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/repository/OrdersRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/repository/specifications/ProductSpecification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/services/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/services/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/soap/products/GetAllProductsRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/soap/products/GetAllProductsResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/soap/products/GetProductByIdRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/soap/products/GetProductByIdResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/soap/products/ObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/soap/products/ProductSoap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/soap/products/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/validators/ProductValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/resources/application-test.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/resources/db/migration/V1__init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/resources/db/testdata/V1__init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/main/resources/products.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-service/src/test/java/shupeyko/core/OrderServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-service/src/main/java/shupeyko/front/WinterMarketFrontApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/cart/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/cart/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/orders/orders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/orders/orders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/registration/registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/registration/registration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/store/store.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/store/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/welcome/welcome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/welcome/welcome.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/shupeyko/gateway/JwtAuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/shupeyko/gateway/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/shupeyko/gateway/WinterMarketGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/message1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/message2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/camel-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e3a01f95-7fb2-4dbe-a4c1-1c33ecdaa276" name="Changes" comment="Patterns. Homework 1.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/shupeyko/api/dto/OrderDetailsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/shupeyko/api/dto/OrderDetailsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/WinterMarketCoreApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/WinterMarketCoreApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/services/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-service/src/main/java/shupeyko/core/services/OrderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,15 +57,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/STPRO/IdeaProjects/Spring2/onlineMarket-storePt9"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/STPRO/IdeaProjects/Patterns/Patterns&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;eab9ac13e9aa9cdc3c0614e3c3589434&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.WinterMarketGatewayApplication">
+}</component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.WinterMarketCoreApplication">
     <configuration name="WinterMarketAuthApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="shupeyko.auth.WinterMarketAuthApplication" />
       <module name="auth-service" />
@@ -235,6 +145,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WinterMarketAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shupeyko.auth.WinterMarketAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WinterMarketCartsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cart-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shupeyko.cart.WinterMarketCartsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WinterMarketCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="core-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shupeyko.core.WinterMarketCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WinterMarketFrontApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="front-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shupeyko.front.WinterMarketFrontApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WinterMarketGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shupeyko.gateway.WinterMarketGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.WinterMarketGatewayApplication" />
@@ -253,8 +198,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677508345044</updated>
+      <workItem from="1679230217483" duration="2686000" />
+      <workItem from="1679420859421" duration="67000" />
+      <workItem from="1679421021785" duration="2396000" />
+      <workItem from="1679563985653" duration="2017000" />
     </task>
+    <task id="LOCAL-00001" summary="Patterns. Homework 1.">
+      <created>1678883562975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678883562975</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -270,6 +230,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Patterns. Homwe Work 1." />
+    <MESSAGE value="Patterns. Homework 1." />
+    <option name="LAST_COMMIT_MESSAGE" value="Patterns. Homework 1." />
   </component>
 </project>
